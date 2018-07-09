@@ -3,10 +3,16 @@ extends layout
 block content
 
     div#last10
-        img(src='../images/' + team + '_last10_bar.jpg' alt='last 10')
+        img(src='../images/' + team + '_last10_bar.jpg' alt='last 10' class='image-responsive')
+
+    //div#last10table
+    //    include ../public/Southampton_lastX.html
 
     div#probability
-        img(src='../images/' + team + '_psn.jpg' alt='probability')
+        img(src='../images/' + team + '_psn.jpg' alt='probability' class='image-responsive')
 
     div#rollingaverages
-        img(src='../images/' + team + '_avg.jpg' alt='rollingaverages')
+        img(src='../images/' + team + '_avg.jpg' alt='rollingaverages' class='image-responsive')
+
+    //div#statcard
+    //    include ../public/Southampton_statcard.html
